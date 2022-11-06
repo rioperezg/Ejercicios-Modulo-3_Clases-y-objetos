@@ -16,12 +16,12 @@ class alumno:
     def __str__(self):
         return "{}, ha sacado un: {}".format(self.nombre, self.nota)
 
-alumno1=Alumno("Jaime", 5)
+alumno1=alumno("Jaime", 5)
 alumno1.califiacion()
 
 print("\n\n")
 
-alumno2=Alumno("Alberto", 3)
+alumno2=alumno("Alberto", 3)
 alumno2.califiacion()
 
 print("\n\n")
